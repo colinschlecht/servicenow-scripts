@@ -127,7 +127,7 @@ function insertMatchedAsset(x) {
 				}
 			}
 
-			if (y.fieldname == " substatus") {
+			if (y.fieldname == "substatus") {
 				//substate - changed values are labels rather than numbers (like state)
 				mi.initialize();
 				mi.id = x.sys_id;
