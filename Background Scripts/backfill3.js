@@ -3,10 +3,13 @@ var x1 = new GlideRecord("alm_asset");
 x1.query();
 
 // state labels (taken from Colin's PDI - may be different in Patterson DEV)
+//compatible with Patterson DEV (added 4, 5, and patterson doesn't use 11)
 var stateLabels = {
 	1: "In use",
 	2: "On order",
 	3: "In maintenance",
+	4: "Litigation hold",
+	5: "Build",
 	6: "In stock",
 	7: "Retired",
 	8: "Missing",
